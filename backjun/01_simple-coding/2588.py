@@ -1,0 +1,7 @@
+a=int(input())
+b,c,d=map(int,input().strip())
+# print(a,b,c,d)
+print(a*d*1)
+print(a*c*1)
+print(a*b*1)
+print(((a*d*1)+(a*c*10)+(a*b*100)))
